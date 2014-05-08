@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel = "stylesheet" href = "css/styles.css">
+	<title>Slider</title>
+</head>
+<body>
+<div class="wrapper">
+	<div id="slider">
+		<img id = '1' src ="img/Image1.jpg">
+		<img id = '2' src="img/Image2.jpg">
+		<img id = '3' src="img/Image3.jpg">
+	</div>
+
+	<a href="#" class="left" onclick='prev(); return false;'>Previous</a>
+	<button  onclick='stopLoop();'>Stop</button>
+	<a href="#" class="right" onclick='next(); return false;'>Next</a>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/slider.js"></script>
+</body>
+</html>
